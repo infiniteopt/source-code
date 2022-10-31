@@ -157,9 +157,9 @@ labeled_files_time = {'5 gens and 20 lines' : './data/ieee14_intersection_bigm_1
 
 labeled_files_perform = {'Big-M' : './data/ieee14_intersection_bigm_1000.json',
                          'Hull' : './data/ieee14_intersection_hull_1000.json',
-                         'Cutting-Plane' : './data/ieee14_intersection_cuttingplane_1000.json',
-                         'RIC' : './data/ieee14_intersection_RIC_1000.json',
-                         'LOA' : './data/ieee14_intersection_LOA_1000.json'}
+                         'Cutting-Plane' : './data/ieee14_intersection_cuttingplane_1000.json'}#,
+                        #  'RIC' : './data/ieee14_intersection_RIC_1000.json',
+                        #  'LOA' : './data/ieee14_intersection_LOA_1000.json'}
 
 plot_pareto_comparison(labeled_files_pareto, True)
 
